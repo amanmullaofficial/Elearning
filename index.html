@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Evil Corp</title>
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <!-- font awesome icons  -->
+    <script src="https://kit.fontawesome.com/187a4ab8ee.js" crossorigin="anonymous"></script>
+    <!-- external css link  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="container">
+        <!--............................................... 
+                        navbar section
+          ................................................-->
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand fw-bold fs-1" href="#">Evil Corp</a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#course">Development</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Browse</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Teach</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#address">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Join Now</a>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!--..................................................... 
+                               slider section
+          ........................................................-->
+        <section class="container pb-5 w-100">
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <!--.............................. 
+                                  item-1
+                     ...............................-->
+                    <div class="carousel-item active">
+                        <img src="images/cover/cover-1.png" class="d-block w-100 img-fluid " alt="...">
+                        <div class="carousel-caption d-md-block w-75 h-50  mb-5 ">
+                            <h1 class="text-light fw-bold">WELCOME TO Evil Corp</h1>
+                            <p class="text-light ">Our mission is to provide a successful online learning
+                                experience.<br>ELearning team is to assist with the integration of technology.</p>
+                            <button type="button" class="btn btn-primary rounded">Explore</button>
+                        </div>
+                    </div>
+                    <!--............................. 
+                                   item-2
+                     ..............................-->
+                    <div class="carousel-item">
+                        <img src="images/cover/cover-2.jpg" class="d-block w-100 img-fluid " alt="...">
+                        <div class="carousel-caption d-md-block w-75 h-50  mb-5 ">
+                            <h1 class="text-white   fw-bold ">DevOps Bootcamp: Terraform</h1>
+                            <p class="text-light">Learn Terraform from scratch. Terraform fundamentals <br>to
+                                provisioning cloud infrastructure on AWS.</p>
+                            <button type="button" class="btn btn-primary rounded">Join Now</button>
+                        </div>
+                    </div>
+                    <!--............................ 
+                                   item-3
+                     ..............................-->
+                    <div class="carousel-item">
+                        <img src="images/cover/cover-3.jpg" class="d-block w-100 img-fluid " alt="...">
+                        <div class="carousel-caption d-md-block w-75 h-50  mb-5 ">
+                            <h1 class="text-white  fw-bold">Meta Back-End Developer</h1>
+                            <p class="text-light">Launch your career as a back-end developer. Build<br>
+                                skills for an in-demand career and get credential from Meta.</p>
+                            <button type="button" class="btn btn-primary rounded">Join Now</button>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </section>
+    </header>
+    <main>
+        <!--.............................................................. 
+                               courses section
+          ...............................................................-->
+        <section class="text-center mt-5">
+            <h3 class="fw-bold">
+                Discover Open-source <br> Courses
+            </h3>
+            <p>
+                Start, switch, or advance your career with more than 5,000 courses, <br>
+                from world-class universities and companies.
+            </p>
+        </section>
+        <section class="container">
+            <!--.................................................................. 
+                                          courses list
+              ...................................................................-->
+
+            <div class="row">
+                <div class="card mb-3 border-0 mt-5 " id="course" style="max-width: 540px;">
+                    <!--............................................ 
+                                       course-1
+                      ............................................-->
+                    <div class="row g-0 border">
+                        <div class="col-md-4">
+                            <img src="images/course/course-1.png" class="img-fluid w-100 rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8 ">
+                            <div class="card-body">
+                                <h5 class="card-title">UI/UX Design Principles</h5>
+                                <p class="card-text">Learn about user experience and user interface design principles
+                                    such as heuristic rules and best practices.</p>
+                                <p class="card-text fs-4"><small class=" text-primary">Price : 50$</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--.................................................... 
+                                             course-2
+                      ....................................................-->
+                    <div class="row g-0 mt-3 border">
+                        <div class="col-md-4">
+                            <img src="images/course/course-2.png" class="img-fluid w-100 rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8 ">
+                            <div class="card-body">
+                                <h5 class="card-title">Learn and Understand NodeJS</h5>
+                                <p class="card-text">Dive deep under the hood of NodeJS. Learn V8, Express, the MEAN
+                                    stack, core Javascript concepts, and more.</p>
+                                <p class="card-text fs-4"><small class=" text-primary">Price : 70$</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--.................................................. 
+                                            course-3
+                      ..................................................-->
+                    <div class="row g-0 mt-3 border">
+                        <div class="col-md-4">
+                            <img src="images/course/course-3.png" class="img-fluid w-100 rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8 ">
+                            <div class="card-body">
+                                <h5 class="card-title">Javascript for Beginners</h5>
+                                <p class="card-text">Learn javascript and supercharge your web design with this
+                                    Javascript for beginners training course.</p>
+                                <p class="card-text fs-4"><small class=" text-primary">Price : 40$</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 border-0 mt-5 col-md-12" style="max-width: 540px;">
+                    <!--............................................ 
+                                         course-4
+                      ............................................-->
+                    <div class="row g-0 border">
+                        <div class="col-md-4">
+                            <img src="images/course/course-4.png" class="img-fluid w-100 rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8 ">
+                            <div class="card-body">
+                                <h5 class="card-title">Digital Marketing</h5>
+                                <p class="card-text">Become a growth hacker! This course is used by teams at PayPal®,
+                                    IBM®, Citibank® & many organizations.</p>
+                                <p class="card-text fs-4"><small class=" text-primary">Price : 10$</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--............................................. 
+                                         course-5
+                      .............................................-->
+                    <div class="row g-0 mt-3 border">
+                        <div class="col-md-4">
+                            <img src="images/course/course-5.png" class="img-fluid w-100 rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8 ">
+                            <div class="card-body">
+                                <h5 class="card-title">Affinity Photo Foundations</h5>
+                                <p class="card-text">The best selling beginners guide to Affinity Photo - complete with
+                                    a 50 page PDF to aid your study!</p>
+                                <p class="card-text fs-4"><small class=" text-primary">Price : 15$</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--............................................. 
+                                           course-6
+                      .............................................-->
+                    <div class="row g-0 mt-3 border">
+                        <div class="col-md-4">
+                            <img src="images/course/course-6.png" class="img-fluid w-100 rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8 ">
+                            <div class="card-body">
+                                <h5 class="card-title">Motion Graphics</h5>
+                                <p class="card-text">Using adobe after effects create beautiful VFX Visual Effects,&
+                                    Compositing.</p>
+                                <p class="card-text fs-4"><small class=" text-primary">Price : 25$</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!--............................................................... 
+                             footer section
+      ..............................................................-->
+
+    <footer class="bg-dark text-center border" id="address">
+
+        <h3 class="text-white pt-4 ">Evil Corp</h3>
+        <p class="text-white-50 pt-3 m-1">Powered by IT-EDUCATION CLUB</p>
+        <p class="text-white-50 m-1">Evil Corp of India </p>
+        <p class="text-white-50 ">Privacy Ploicy | Terms of use</p>
+
+        <div>
+            <a target="_blank" class="text-white fs-2 ps-4" href="#"><i
+                    class="fa-brands fa-facebook"></i></a>
+            <a target="_blank" class="text-white fs-2 ps-4 " href="#"><i
+                    class="fa-brands fa-instagram"></i></a>
+            <a target="_blank" class="text-white fs-2 ps-4" href="#"><i
+                    class="fa-brands fa-twitter"></i></a>
+            <a target="_blank" class="text-white fs-2 ps-4" href="#"><i
+                    class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </footer>
+    <!--.............................................. 
+                       js cdn link
+      ..............................................-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
